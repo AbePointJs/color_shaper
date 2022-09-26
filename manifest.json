@@ -1,0 +1,6 @@
+{
+	"manifest_version": 3,
+	"name": "Color Shaper",
+	"description": "A web extension to help people with color blindess have a better experience in chrome",
+	"version": 0.0
+}
