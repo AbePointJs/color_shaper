@@ -1,6 +1,28 @@
 {
 	"manifest_version": 3,
 	"name": "Color Shaper",
+	"version": "1.0.0",
+
+	"action": {
+		"default_popup": "popup.html",
+		"default_icon": {
+			"32": "/images/icons/icon_32.png",
+			"48": "/images/icons/icon_48.png",
+			"128": "/images/icons/icon_128.png"
+		}
+	},
+
 	"description": "A web extension to help people with color blindess have a better experience in chrome",
-	"version": "1.0.0"
+
+	"icons": {
+		"32": "/images/icons/icon_32.png",
+		"48": "/images/icons/icon_48.png",
+		"128": "/images/icons/icon_128.png"
+	},
+
+	"background": {
+		"service_worker": "background.js"
+	},
+
+	"permissions": ["storage"]
 }
